@@ -55,3 +55,12 @@ C:\Users\217801\git\Hub\inc01\.git>cat config
 [branch "master"]
         remote = origin
         merge = refs/heads/master
+#=========================================
+REWRITE HISTORY
+Rewriting branches, updating commits and clearing history
+git rebase [branch]
+apply any commits of current branch ahead of specified one
+git reset --hard [commit]
+clear staging area, rewrite working tree from specified commit
+#============================================
+
