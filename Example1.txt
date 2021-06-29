@@ -1,0 +1,18 @@
+#GitHub Test File
+1.This is a Test file to check git commands
+2.News about Test Match Cricket
+3.European Football Championship
+#==============================
+echo "# inc01" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/inccricket/inc01.git
+git push -u origin master
+#===============================
+…or push an existing repository from the command line
+git remote add origin https://github.com/inccricket/inc01.git
+git branch -M master
+git push -u origin master
+#======================================
