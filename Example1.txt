@@ -39,3 +39,19 @@ show the diff of what is in branchA that is not in branchB
 git show [SHA]
 show any object in Git in human-readable format
 #============================================
+Added to master
+
+C:\Users\217801\git\Hub\inc01\.git>cat config
+[core]
+        repositoryformatversion = 0
+        filemode = false
+        bare = false
+        logallrefupdates = true
+        symlinks = false
+        ignorecase = true
+[remote "origin"]
+        url = https://github.com/inccricket/inc01
+        fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+        remote = origin
+        merge = refs/heads/master
